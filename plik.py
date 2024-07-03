@@ -95,7 +95,6 @@ naglowki_tabeli = {
 
 # Funkcja do wyświetlania danych z wybranej tabeli
 def sprawdz_uprawnienia(uzytkownik, potrzebne_uprawnienia):
-    # Tu dodaj logikę do sprawdzenia uprawnień użytkownika.
     if True:
         return True
     else:
@@ -187,7 +186,7 @@ def wybierz_tabele(*args):
 
 # Tworzenie głównego okna
 root = tk.Tk()
-root.title("Aplikacja do obsługi bazy danych - Logowanie")
+root.title("Aplikacja do obsługi bazy danych")
 
 frame = ttk.Frame(root)
 frame.pack(padx=20, pady=20)
